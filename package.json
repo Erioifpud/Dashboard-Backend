@@ -1,0 +1,30 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon"
+  },
+  "author": "Erioifpud",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.1",
+    "ioredis": "^3.2.2",
+    "kcors": "^2.2.2",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-log4": "^2.3.0",
+    "koa-router": "^7.4.0",
+    "koa-session2": "^2.2.6",
+    "typeorm": "^0.2.7"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.46",
+    "@types/koa-router": "^7.0.30",
+    "nodemon": "^1.18.3",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  }
+}
